@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-animation-challenge/static/css/main.2a9deca5.chunk.css",
+    "main.js": "/react-animation-challenge/static/js/main.b06ea914.chunk.js",
+    "main.js.map": "/react-animation-challenge/static/js/main.b06ea914.chunk.js.map",
+    "runtime-main.js": "/react-animation-challenge/static/js/runtime-main.eca6b155.js",
+    "runtime-main.js.map": "/react-animation-challenge/static/js/runtime-main.eca6b155.js.map",
+    "static/js/2.462a1544.chunk.js": "/react-animation-challenge/static/js/2.462a1544.chunk.js",
+    "static/js/2.462a1544.chunk.js.map": "/react-animation-challenge/static/js/2.462a1544.chunk.js.map",
+    "index.html": "/react-animation-challenge/index.html",
+    "precache-manifest.bf26e33e3f54ec1430c16e5d91c26e37.js": "/react-animation-challenge/precache-manifest.bf26e33e3f54ec1430c16e5d91c26e37.js",
+    "service-worker.js": "/react-animation-challenge/service-worker.js",
+    "static/css/main.2a9deca5.chunk.css.map": "/react-animation-challenge/static/css/main.2a9deca5.chunk.css.map",
+    "static/js/2.462a1544.chunk.js.LICENSE.txt": "/react-animation-challenge/static/js/2.462a1544.chunk.js.LICENSE.txt",
+    "static/media/SeriesDetails.module.scss": "/react-animation-challenge/static/media/handmaid.52e0119f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eca6b155.js",
+    "static/js/2.462a1544.chunk.js",
+    "static/css/main.2a9deca5.chunk.css",
+    "static/js/main.b06ea914.chunk.js"
+  ]
+}
