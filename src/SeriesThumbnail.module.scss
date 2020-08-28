@@ -1,16 +1,26 @@
 .series-thumbnail {
   width: 150px;
-  height: 260px;
   flex-shrink: 0;
   border-radius: 5px;
-  background-image: linear-gradient(transparent 100px, #070a0e 200px),
-    url(./images/handmaid.jpg);
-  background-size: cover;
-  background-position: center;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+
+  &__image {
+    background-image: linear-gradient(transparent 100px, #070a0e 100%),
+      url(./images/handmaid.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
   &__title {
     color: #e8e6e1;
@@ -18,21 +28,18 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.1em;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
   }
 
   &__main-text {
     color: #e8e6e1;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-top: 15px;
   }
 
   &__sub-text {
+    margin-top: 5px;
     color: #89888c;
     font-weight: 500;
-  }
-
-  & + & {
-    margin-left: 20px;
   }
 }

@@ -6,7 +6,6 @@ function App() {
   return (
     <div className={styles.app}>
       <SeriesList />
-      <SeriesList />
     </div>
   );
 }

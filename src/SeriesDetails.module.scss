@@ -1,0 +1,22 @@
+.series-details {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+  background-image: url(./images/handmaid.jpg);
+  background-size: cover;
+  background-position: center;
+
+  &__title {
+    color: #e8e6e1;
+    font-family: 'Barlow Condensed';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
+    padding: 200px 0;
+    text-align: center;
+
+    background: linear-gradient(transparent, black 80%);
+  }
+}

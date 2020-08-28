@@ -1,8 +1,7 @@
 .series-list {
   flex: 1;
   min-width: 0;
-  max-width: 400px;
-  margin-top: 50px;
+  padding: 30px 20px;
 
   &__top-bar {
     display: flex;
@@ -29,6 +28,10 @@
 
     &::-webkit-scrollbar {
       display: none;
+    }
+
+    > * + * {
+      margin-left: 30px;
     }
   }
 }
